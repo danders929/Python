@@ -44,7 +44,7 @@ year = today.year
 y100 = year - int(age) + 100
 
 if age>=120:
-    print ("\nDamn you are the oldest person alive!\n" * n)
+    print ("\nYou are the oldest person alive!\n" * n)
 
 elif age>100 and age<120:
     print ("\nCongratulations %s you made it past 100 on the year %s.\n" % (name,y100) * n)
